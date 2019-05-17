@@ -32,13 +32,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+DOM is Documet Object Model. It connects the web pages to the script(programming language)
+
 2. What is an event?
+
+Event is anything that can happen. It could be click, hover or scroll
 
 3. What is an event listener?
 
+Event listener is simply listening to events that occurs
+
 4. Why would we convert a NodeList into an Array?
 
+For us to be able to iterate over the NodeList. And basically to be able to use several array methods on it.
+
 5. What is a component?
+
+Component is segmenting the functioality your app into different chunks. A component comprises of a js file and a css file. For instance I could create different components for header, sidebars, footer etc.
 
 ### Git Set up
 
