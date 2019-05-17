@@ -11,7 +11,7 @@ class Carousel {
   moveRight = () => {
     this.image[this.currentIndex].style.display = "none";
     if (this.currentIndex === 3) {
-      this.currentIndex = 3;
+      this.currentIndex = 0;
       this.image[this.currentIndex].style.display = "block";
     } else
     {
@@ -22,7 +22,7 @@ class Carousel {
   moveLeft = () => {
     this.image[this.currentIndex].style.display = "none";
     if (this.currentIndex === 0) {
-      this.currentIndex = 0;
+      this.currentIndex = 3;
       this.image[this.currentIndex].style.display = "block";
     } else
     {
